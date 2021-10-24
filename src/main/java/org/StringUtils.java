@@ -7,7 +7,6 @@ public class StringUtils {
         if (NumberUtils.isParsable(str)) {
             return NumberUtils.createDouble(str) > 0;
         }
-        // text for testing fetch function();
         return false;
     }
 }

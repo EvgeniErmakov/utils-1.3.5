@@ -23,7 +23,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-//https://coderlessons.com/articles/java/nachalo-raboty-s-gradle-sozdanie-mnogoproektnoi-sborki
+
 jar {
     manifest {
         attributes 'StringUtils': 'StringUtils.App'
