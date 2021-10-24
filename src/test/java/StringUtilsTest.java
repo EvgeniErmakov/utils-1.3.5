@@ -1,5 +1,3 @@
-
-
 import org.StringUtils;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -31,7 +29,7 @@ public class StringUtilsTest {
 
     @MethodSource("provideArguments")
     @ParameterizedTest()
-    void checkEmailTest(String string, boolean expected) {
+    void isPositiveNumberTest(String string, boolean expected) {
         boolean actual = StringUtils.isPositiveNumber(string);
         assertEquals(expected, actual);
     }
